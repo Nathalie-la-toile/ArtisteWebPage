@@ -5,13 +5,15 @@
     <meta charset="UTF-8"><!-- Codage en Français -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Largeur de la page  -->
     <title>Document sur Michael Jackson</title><!-- Titre de son site, il apparait dans l'onglet -->
+   <link rel="stylesheet" href="style.css"> <!-- Pour relier ma feuille de style -->
 </head>
 
 <body><!-- Le contenu de la page -->
-    <header>
+
+    <header> <!-- La tête de mon site avec le logo dessous en img-->
         <img src="https://mjfrance.com/site/news/octobre18/logomj.jpg" alt="Photo de Michael Jackson logo" width="150"
             height="150">
-        <nav>
+        <nav> <!-- Pour naviguer dans le menu liste non ordonnée-->
             <ul>
                 <li><a href="#quelques">Quelques</a></li>
                 <li><a href="#une">Une</a></li>
@@ -27,11 +29,12 @@
         </nav>
     </header>
 
-    <main>
-        <section>
-            <h1>MICHAEL JACKSON</h1>
+    <main>  <!-- Le contenu de la page-->
 
-            <h2 id="quelques"><strong>QUELQUES PHOTOS</strong></h2>
+        <section>  <!-- Section pour englober mon H1 + H2 + img-->
+            <h1>MICHAEL JACKSON</h1> <!-- Titre H1 qui est le + important-->
+
+            <h2 id="quelques"><strong>QUELQUES PHOTOS</strong></h2> <!-- Titre H2 qui est le - important et plus petit-->
 
             <img src="https://media.gettyimages.com/id/3231394/fr/photo/portrait-of-american-pop-star-michael-jackson-wearing-a-red-leather-jacket-at-the-opening-of-the.jpg?s=612x612&w=0&k=20&c=JuKtA7osmQEmOTJR1_zNKif3nt-kqssNV2myUKBeuUM="
                 alt="Photo de Michael Jackson" width="100" height="150">
@@ -68,29 +71,33 @@
         <br>
         <br>
 
-        <section>
-            <h2 id="une"><strong>UNE DE MES CHANSONS PRÉFÉRÉES</strong></h2p>
-                <iframe width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay"
+        <section class="pref"> <!-- Section pour englober mon H2 + iframe + ma div-->
+            <h2><strong>UNE DE MES CHANSONS PRÉFÉRÉES</strong></h2p>
+
+                <!-- balise iframe pour intégrer le contenu ici une vidéo d'une page dans ma page-->
+                <iframe width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay"  
                     src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/278508741&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-                <div
-                    style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+
+                <div> <!-- la div permet de rassembler ds éléments sans leur accordé une sémentique-->                    
                     <a href="https://soundcloud.com/mjimmortal" title="Michael Jackson" target="_blank"
-                        style="color: #cccccc; text-decoration: none;">Michael Jackson</a> · <a
+                        style="color: #121111; text-decoration: none;">Michael Jackson</a> · <a
                         href="https://soundcloud.com/mjimmortal/dirty-diana" title="Dirty Diana" target="_blank"
-                        style="color: #cccccc; text-decoration: none;">Dirty Diana</a></div>
+                        style="color: #121111; text-decoration: none;">Dirty Diana</a>
+                 </div>
         </section>
 
         <br>
 
-        <div>
-            <p id="roi"><strong>" Roi de la Pop"</strong> incontesté et artiste à l’énorme succès planétaire, Michael
+        <div>  <!-- la div permet de rassembler ds éléments sans leur accordé une sémentique-->   
+             <!-- p pour paragraphe-->   
+            <p> Roi de la Pop" incontesté et artiste à l’énorme succès planétaire, Michael
                 Jackson a laissé une empreinte inoubliable dans l’industrie musicale. </p>
         </div>
 
         <br>
 
         <section>
-            <article>
+            <article>  <!-- article qui regroupe H2 + mon paragraphe-->   
                 <h2 id="biographie">BIOGRAPHIE</h2>
                 <p>Auteur, compositeur et interprète, danseur et chorégraphe américain, Michael Joseph Jackson est né le
                     29 août 1958 à Gary, Indiana. Également acteur et réalisateur, il est décédé le 25 juin 2009 à Los
@@ -110,7 +117,7 @@
             </article>
             <br>
 
-            <article>
+            <article>  <!-- article qui regroupe H2 + ma liste de titre de disque-->   
                 <h2 id="discographie">DISCOGRAPHIE</h2>
                 <ul>
                     <li>Got to Be There 1972</li>
@@ -128,7 +135,7 @@
 
             <br>
 
-            <article>
+            <article>  <!-- article qui regroupe H2 + mon paragraphe-->  
                 <h2 id="danse">DANSE</h2>
                 <p>Michael Jackson a également innové par ses talents de danseur, devenant l'icône de la « danse à
                     illusion ». Le moonwalk, exécuté pour la première fois en public sur la NBC le 26 mai 1983 sur le
@@ -147,7 +154,7 @@
 
             <br>
 
-            <article>
+            <article> <!-- article qui regroupe H2 + mon paragraphe + ma liste ordonnée de films-->  
                 <h2 id="filmographie">FILMOGRAPHIE</h2>
                 <p>En tant qu'acteur</p>
                 <ol>
@@ -165,7 +172,7 @@
 
         <br>
 
-        <section>
+        <section> <!-- Section pour englober mon H2 + iframe-->
             <h2 id="clip">LE CLIP LE PLUS CONNU</h2>
             <iframe src="https://geo.dailymotion.com/player.html?video=x8vkluu" style="width:1200px; height:450px;"
                 allowfullscreen title="Dailymotion Video Player" allow="web-share">
@@ -176,12 +183,11 @@
         <br>
         <br>
 
-
-        <section>
+        <section> <!-- Section pour englober mon article qui comprend mon H2 + l'image du lien vers Wikipédia-->
             <article>
                 <h2 id="wikipedia">LIEN VERS WIKIPÉDIA EN CLIQUANT SUR LA PHOTO</h2>
                 <a href="https://fr.wikipedia.org/wiki/Michael_Jackson/" target="_blank">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Michael_Jackson_1988.jpg/120px.jpg"
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Michael_Jackson_1988.jpg/150px-Michael_Jackson_1988.jpg"
                         alt="photo Michael Jakson Wikipedia">
                 </a>
             </article>
@@ -196,8 +202,12 @@
         </section>
 
     </main>
-    <footer>
-
+    <footer> <!-- Pied de page-->
+<div class="boutique">
+    <a href="">
+    <img src ="assets/boutique.png" alt="le texte alternatif"> 
+</a>
+</div>
     </footer>
 </body>
 

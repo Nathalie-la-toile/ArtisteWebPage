@@ -1,0 +1,34 @@
+/*HEADER*/
+header {
+    background-color: burlywood;
+}
+
+
+
+/*SECTION CLASSE PREFEREE*/
+.pref {
+    border: solid 6px black;
+    background-color: red;
+}
+
+.pref h2 {
+    text-align: center;
+}
+
+
+
+/*FOOTER*/
+.boutique {
+    border: solid 6px black;
+    height: 100px;
+    background-color: burlywood;
+}
+
+.boutique img {
+    width: 50px;
+    border-radius: 80px;
+    border: solid 4px black;
+    margin-top: 15px;
+    margin-left: 400px;
+}
+
